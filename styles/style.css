@@ -1,8 +1,36 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    width: 100vw;
+}
 
-*/
+.upper-body {
+    background-image: url("../images/landing.jpg");
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.landing-text {
+    width: 30vw;
+    text-align: center;
+}
+
+#spotify-logo {
+
+    width: 10vw;
+
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+.nav-img {;
+}
